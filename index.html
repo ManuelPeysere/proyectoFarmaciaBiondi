@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Farmacia Biondi | Inicio</title>
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__container">
+
+            <a href="./index.html"><img class="logo__farm" src="./images/logo_farmacia.png" alt="Logo de Farmacia Biondi"></a>  
+            
+                <input class="busqueda__input" type="text" id="busqueda" placeholder="Buscá productos, marca, categorías">
+           
+            <div class="icons">            
+                <span class="jam jam-shopping-cart"> <a class="jam__header" href="./pages/cart.html"> Tu carrito</a> </span>
+                <span class="jam jam-user"> <a class="jam__header" href="./pages/account.html"> Ingresar</a> </span>
+            </div>
+            
+            <div class="menu__hamb">
+                <span class="jam jam-menu"></span>
+            </div>
+
+        </section>
+
+        <div>
+            <nav>
+                <ul class="navbar__list">
+                    <li class="navbar__hijo"><a class="nav__link" href="./index.html"> Inicio </a> </li>
+                    <li class="navbar__hijo"><a class="nav__link" href="../pages/products.html"> Productos </a></li>
+                    <li class="navbar__hijo"><a class="nav__link" href="../pages/cart.html"> Carro de Compras</a></li>
+                    <li class="navbar__hijo"><a class="nav__link" href="../pages/contact.html"> Contacto</a></li>
+                    <li class="navbar__hijo"><a class="nav__link" href="./pages/account.html"> Mi Cuenta </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main__index">
+        
+            <img class="carrousel__img" src="./images/carrusel.jpg" alt="Imágenes de ofertas">
+        
+
+        <section class="access">
+            <a href="./pages/products.html"> <img src="./images/bebe.jpg" alt="bebe"> </a>
+            <a href="./pages/products.html"> <img src="./images/cuidadopersonal.jpg"
+                    alt="cuidado personal"> </a>
+            <a href="./pages/products.html"> <img src="./images/dermocosmetica.jpg"
+                    alt="dermocosmetica"> </a>
+            <a href="./pages/products.html"> <img src="./images/maquillaje.jpg" alt="maquillaje">
+            </a>
+            <a href="./pages/products.html"> <img src="./images/electrosalud.jpg"
+                    alt="electrosalud"> </a>
+        </section>
+
+
+        <section class="ofert">
+
+            <div>
+                <h2 id="title__offert">¡Ofertas exclusivas!</h2>
+                <h4 id="description__offert">Viernes, sábado y domingo</h4>
+                <a id="link__offert" href="./pages/products.html"> Ver todos los productos</a>
+            </div>
+
+            <article class="product" >
+                <img src="./images/ofafeitadora.jpg" alt="Afeitadora Philips" class="img__product">
+                <div>
+                    <p class="brand">Philips</p>
+                    <p class="description">Afeitadora Philips Aquatouch S1121/41 ComfortCut</p>
+                    <div class="div__price">
+                        <p><del>$ 6.958,90</del></p>
+                        <p class="price">$ 5.279.10</p>
+                    </div>
+
+                    <button type="button" class="button">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="./images/ofgelcicatricure.jpg" alt="Cicatricure" class="img__product">
+                <div>
+                    <p class="brand">Cicatricure</p>
+                    <p class="description">Cicatricure Gel con regenerate complex para Cicatrices x 60 g</p>
+                    <div class="div__price">
+                        <p><del>$ 1.740,50</del></p>
+                        <p class="price">$1.302,90</p>
+                    </div>
+                    <button type="button" class="button">Agregar al carrito</button>
+                </div>
+            </article>
+
+            <article class="product">
+                <img src="./images/ofemulsionveganis.jpg" alt="Veganis" class="img__product">
+                <div>
+                    <p class="brand">Veganis</p>
+                    <p class="description">Emulsión Extra Humectante de Palta y Oliva x 500 gr</p>
+                    <div class="div__price">
+                        <p><del>$ 1.868,51</del></p>
+                        <p class="price">$1.401,39</p>
+                    </div>
+                    <button type="button" class="button">Agregar al carrito</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__style">
+            <div>
+                <h3>ATENCIÓN AL CLIENTE</h3>
+                <p> <a href="./pages/faq.html" class="faq__ref">Preguntas frecuentes</a></p>
+                <p>Envíos y retiros</p>
+                <p>Devoluciones</p>
+                <p>Sobre nosotros</p>
+                <p>¿Dónde nos encontrás?</p>
+            </div>
+
+            <div>
+                <h3>CONTACTO</h3>
+                <p>03465-497840</p>
+                <p>fbiondi@gmail.com</p>
+            </div>
+
+            <div>
+                <h3>VISITANOS</h3>
+                <p><a href="https://goo.gl/maps/EVeQPsLX1VgkiM9XA" class="faq__ref">Altamirano 523,</a></p>
+                <p>Bombal (2179) </p>
+                <p>Santa Fe, Argentina </p>
+            </div>
+
+            <div>
+                <h3>SEGUINOS</h3>
+                <div class="rrss__url">
+                    <span class="jam jam-instagram"> <a class="rrss__link" target="blank"
+                            href="https://www.instagram.com/farmacia_biondi/">farmacia_biondi</a> </span>
+                    <span class="jam jam-facebook"> <a class="rrss__link" target="blank"
+                            href="https://www.facebook.com/farmacia.biondi.37/photos">Farmacia Biondi</a> </span>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
