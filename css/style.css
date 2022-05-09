@@ -14,6 +14,7 @@
 display: flex;
 background-color: whitesmoke;
 position: fixed;
+z-index: 100;
 width: 100%;
 align-items:center;
 justify-content: space-around;
@@ -23,6 +24,7 @@ justify-content: space-around;
     flex-wrap: wrap; */
     background-color: whitesmoke;
     position: fixed;
+    z-index: 100;
     width: 100%;
     /* align-items:center;
     justify-content: space-around; */
@@ -50,6 +52,7 @@ justify-content: space-around;
     width: 100%;
     margin-top: 80px;
     position: fixed;
+    z-index: 100;
     background-color: white;
 }
 .navbar__hijo {
@@ -440,7 +443,7 @@ color: #22a884;
     padding: 3%;
     height: 30px;
     text-align: center;
-    background-color: whitesmoke;
+    color: white;
     border: none;
 }
 .placeholder__text {
@@ -555,7 +558,6 @@ font-weight: bold;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 50%;
-    height: 4%;
     background-image: linear-gradient(to bottom, #35ca74, #22a884);
     justify-content: center;
     align-items: center;
@@ -563,7 +565,7 @@ font-weight: bold;
     color: white;
     margin-bottom: 2rem;
     font-size: 100%;
-    padding: 1rem;
+    padding: 1%;
     border-radius: 10px;
     cursor: pointer;
     margin-left: 25%;
@@ -638,6 +640,16 @@ font-weight: bold;
 }
 .elesix {
     grid-area: ele6;
+}
+.range {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    text-align: center;
+}
+.range input {
+    width: 30%;
 }
 @media screen and (max-width:600px) {
     .navbar__list {
@@ -790,6 +802,7 @@ font-weight: bold;
         font-size: 100%;
         width: 40%;
         margin-right: 18%;
+        padding: 6%;
     }
     .buy p {
         margin-left: 2rem;
