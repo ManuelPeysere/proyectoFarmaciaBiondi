@@ -200,11 +200,12 @@ color: #22a884;
     gap: 80px;
 }
 .footer__style h3 {
-    margin-top: 12px;
     font-size: 120%;
+    font-weight: 1000;
 }
 .footer__style p {
     font-size: 100%;
+    font-weight: 700;
 }
 .footer__name {
     align-items: flex-end;
@@ -403,7 +404,25 @@ color: #22a884;
     grid-area: ele4;
     margin-top: 10%;
 }
-
+.navProducts {
+    margin-top: 3%;
+    border-top: whitesmoke solid 5px;
+    width: 80%;
+    margin-left: 10%;
+}
+.navProducts a {
+    color: #333;
+    font-size: 20px;
+}
+.navProducts a:hover {
+    color: white;
+    font-weight: 1000;
+    background-color: #35ca74;
+    border-radius: 10%;
+}
+.navProducts ul {
+    gap: 5%;
+}
 .faq__ref {
     text-decoration: none;
 }
@@ -459,6 +478,7 @@ color: #22a884;
 }
 .footer__style a {
     color: #333;
+    font-weight: 700;
 }
 .footer__style a:hover {
 color: #22a884;
@@ -493,6 +513,7 @@ font-weight: bold;
 }
 #main__cart {
     width: 100%;
+    background-color: red;
 }
 
 .cart {
@@ -508,7 +529,7 @@ font-weight: bold;
     "ele1 ele1 ele4 ele3"
     "ele2 ele2 ele4 ele3"
     "0 0 0 ele3";
-    gap: 20px
+    gap: 20px;
 }
 .select__one {
     grid-area: ele1;
@@ -651,6 +672,30 @@ font-weight: bold;
 .range input {
     width: 30%;
 }
+.suscription {
+    text-align: center;
+    padding: 3%;
+    background-color:gainsboro;
+}
+.suscription p {
+    font-size: 150%;
+    font-weight: bold;
+}
+.suscription input {
+    text-align: center;
+    width: 25%;
+    font-size: 110%;
+    border: none;
+}
+.suscription button {
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    background-color: #35ca74;
+    border: none;
+    font-size: 110%;
+}
+
 @media screen and (max-width:600px) {
     .navbar__list {
         display: none;

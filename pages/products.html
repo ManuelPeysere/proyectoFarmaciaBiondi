@@ -11,6 +11,8 @@
 </head>
 
 <header class="header">
+
+
         <section class="header__container">
             <a href="../index.html"><img class="logo__farm" src="../images/logo_farmacia.png" alt="Logo de Farmacia Biondi"></a> 
             <input class="busqueda__input" type="text" id="busqueda" placeholder="Buscá productos, marca, categorías">
@@ -47,8 +49,30 @@
     </header>
 
 
-    <main class="main">
-        <section class="section__products">
+    <main>
+        <div class="navProducts">
+            <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Electrosalud</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cuidado Personal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dermocosmética</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Maquillaje</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Bebe</a>
+              </li>
+          </ul>
+        </div>
+          
+          
+          <div class="main">
+              <section class="section__products">
         <article class="product">
             <img src="../images/shbiferdil.jpg" alt="Shampoo Biferdil" class="img__product">
             <div>
@@ -205,7 +229,8 @@
 
        <button>Limpiar filtros</button>
     </section>
-
+</div>
+       
      </main>
 
      <footer class="footer">
