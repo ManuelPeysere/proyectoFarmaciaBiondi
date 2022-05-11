@@ -513,7 +513,6 @@ font-weight: bold;
 }
 #main__cart {
     width: 100%;
-    background-color: red;
 }
 
 .cart {
@@ -694,6 +693,19 @@ font-weight: bold;
     background-color: #35ca74;
     border: none;
     font-size: 110%;
+}
+.col-12 button {
+    margin-bottom: 1rem;
+    width: 10%;
+    margin-left: 45%;
+    background-color:#35ca74;
+    font-weight: bold;
+}
+.form a {
+    text-decoration: none;
+}
+.form a:hover {
+    font-size: 120%;
 }
 
 @media screen and (max-width:600px) {
