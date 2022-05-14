@@ -1,0 +1,184 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ }
+.main__index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+.carrousel {
+    margin-bottom: 3rem;
+}
+.ofert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+    background-image: linear-gradient(to bottom, #35ca74, #22a884);
+    margin-bottom: 5rem;
+    border-radius: 30px;
+    /* border: red solid 10px; */
+}
+#title__offert {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+#description__offert {
+    color: white;
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+#link__offert {
+    text-decoration: none;
+    color: white;
+    margin-left: 4rem;
+    font-weight: bold;
+}
+
+#link__offert:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.div__price {
+    display: flex;
+    gap: 20px;
+}
+.img__product {
+    width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+.price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.brand, .price, .description {
+    margin-bottom: 10px;
+}
+.destacadas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.destacadas p {
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+    border-bottom: #35ca74 solid 2px;
+}
+.marcasDestacadas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.marcasDestacadas img {
+    width: 200px;
+    height: 200px;
+}
+.suscription {
+    text-align: center;
+    padding: 3%;
+    background-color: #EFEFEF;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.suscription img {
+    width: 100%;
+    height: 100%;
+}
+.suscription p {
+    font-size: 180%;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 27%;
+}
+.suscription input {
+    text-align: center;
+    width: 25%;
+    height: 15%;
+    font-size: 110%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+
+}
+.suscription button {
+    width: 10%;
+    color: white;
+    font-weight: bold;
+    background-color: #35ca74;
+    border: none;
+    font-size: 110%;
+    padding: 2px;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+}
+.menu__hamb {
+    display: none;
+}
+.imgDirection img {
+    border-radius: 5%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.avisos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 2%;
+    padding: 1%;
+}
+.group {
+    width: 30%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.group img {
+    width: 30%;
+}
+.group p {
+    font-size: 110%;
+}
+.group p b:hover {
+    color: #35ca74;
+}
+.access {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.access img {
+    border-radius: 10%;
+    
+}

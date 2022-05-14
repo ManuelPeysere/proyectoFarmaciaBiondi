@@ -1,0 +1,124 @@
+.navProducts {
+    margin-top: 3%;
+    border-top: whitesmoke solid 5px;
+    width: 80%;
+    margin-left: 10%;
+}
+.navProducts a {
+    color: #333;
+    font-size: 20px;
+}
+.navProducts a:hover {
+    color: white;
+    font-weight: 1000;
+    background-color: #35ca74;
+    border-radius: 10%;
+}
+.navProducts ul {
+    gap: 5%;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.section__products {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: whitesmoke 2px solid;
+    padding: 10px;
+    background-color: white;  
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product:hover {
+   box-shadow: 11px 15px 5px 0px rgba(0,0,0,0.16); 
+}
+.button {
+    background-color: #22a884;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.section__filter {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin-top: 4rem;
+    /* border: red 5px solid; */
+    flex-wrap: nowrap;
+    order: -1;
+    background-color:whitesmoke;
+    margin-bottom: 3rem;
+    gap: 10px;
+    height: 100%;
+    margin-left: 3rem;
+}
+.section__filter h5 {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: #22a884;
+    font-weight: bold;
+}
+
+.section__filter label {
+    margin-left: 1rem;
+}
+
+.section__filter label:hover{
+    cursor: pointer;
+    color: #22a884;
+    font-weight: bold;
+}
+
+.section__filter button {
+    padding: 10px;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #22a884;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.range {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    text-align: center;
+}
+.range input {
+    width: 30%;
+    height: 100px;
+}
+.bannerProducts {
+    width: 100%;
+    margin-top: 1%;
+}

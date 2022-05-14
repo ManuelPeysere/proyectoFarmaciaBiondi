@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 5rem;
+    justify-content: center;
+    width: 100%;
+}
+.footer__style {
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 80px;
+}
+.footer__style h3 {
+    font-size: 120%;
+    font-weight: 1000;
+}
+.footer__style p {
+    font-size: 100%;
+    font-weight: 700;
+}
+.footer__name {
+    align-items: flex-end;
+}
+.footer__style a {
+    color: #333;
+    font-weight: 700;
+}
+.footer__style a:hover {
+color: #22a884;
+font-weight: bold;
+}

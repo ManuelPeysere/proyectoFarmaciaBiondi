@@ -1,0 +1,106 @@
+.header {
+    height: 100px;
+    margin-bottom: 3rem;    
+}
+
+.header__container {
+display: flex;
+background-color: whitesmoke;
+position: fixed;
+z-index: 100;
+width: 100%;
+align-items:center;
+justify-content: space-around;
+
+}
+.header__containerb {
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.logo__farm {
+    width: 3rem;
+    margin-left: 100%;
+    margin-right: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.logo__farma {
+    width: 3rem;
+}
+.navbar__list {
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 5%;
+    padding: 1rem;
+    height: 70px;
+    width: 100%;
+    margin-top: 80px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+.navbar__hijo {
+    color: #333;
+    font-size: 20px;
+}
+
+.nav__link:hover{
+color: #22a884;
+}
+.nav__link {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+  }
+  .nav__link:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #22a884;
+    height: 2px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .nav__link:hover:before, .nav__link:focus:before, .nav__link:active:before {
+    right: 0;
+  }
+.busqueda__input {
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+    border: none;
+    text-align: center;
+}
+.jam__header {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+   }        
+   
+   .jam__header:hover {
+       color: #22a884;
+       font-weight: bold;
+       font-size: 20px;
+   }
+   .icons {
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+   

@@ -1,0 +1,140 @@
+.container {
+    margin-bottom: 5%;
+}
+.buy {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 100%;
+    width: 70%;
+}
+.buy h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cupon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 50%;
+    background-image: linear-gradient(to bottom, #35ca74, #22a884);
+    justify-content: center;
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 150%;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 25%;
+}
+.cupon span {
+    transform: rotate(270deg);
+}
+.cupon h6 {
+    margin-top: 5%;
+    font-weight: bold;
+}
+.buy p {
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.button__confirm {
+    background-color: #22a884;
+    color: white;
+    font-size: 115%;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 4%;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.button__continue {
+    background-color: white;
+    color: black;
+    font-size: 90%;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 4%;
+    width: 65%;
+    border: none;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.finish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finish p {
+    cursor: pointer;
+    width: 40%;
+}
+.finish p:hover {
+    color: #22a884;
+    font-weight: bold;
+    font-size: 16px;
+}
+.cash {
+    display:grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:
+    "ele1 ele4"
+    "ele2 ele5"
+    "ele3 ele6";
+}
+.eleone {
+    grid-area: ele1;
+}
+.eletwo {
+    grid-area: ele2;
+}
+.elethree {
+    grid-area: ele3;
+    font-weight: bold;
+}
+.elefour {
+    grid-area: ele4;
+}
+.elefive {
+    grid-area: ele5;
+}
+.elesix {
+    grid-area: ele6;
+    font-weight: bold;
+}
+.inputNumber {
+    background-color: whitesmoke;
+    height: 20%;
+    width: 10%;
+    border: none;
+    font-size: 20px;
+    display: grid;
+    grid-area: ele4;
+    margin-top: 10%;
+}
+.mediosPago {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+.ofertasPago {
+    width: 100%;
+    cursor: pointer;
+}
+.select__one {
+    display: flex;
+    width: 100%;
+}
+.select__two {
+    display: flex;
+    width: 100%;
+}
+.col {
+    margin-left: 5%;
+}
