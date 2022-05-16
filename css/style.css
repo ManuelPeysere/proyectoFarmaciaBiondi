@@ -1,62 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-.form a {
-  text-decoration: none;
-}
-
-.form a:hover {
-  font-size: 120%;
-}
-
-.form {
+.bannerOfertas {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  border: #22a884 solid 2px;
-  width: 50%;
-  border-radius: 10px;
-  background-image: linear-gradient(to bottom, #35ca74, #22a884);
-}
-.form h4 {
-  font-size: 150%;
-  color: whitesmoke;
-  font-weight: bold;
-  text-align: center;
-}
-.form h3 {
-  font-size: 120%;
-  color: whitesmoke;
-  font-weight: bold;
-  text-align: center;
-}
-.form p {
-  font-size: 110%;
-  color: whitesmoke;
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
 }
 
-.form__input {
-  padding: 100%;
-  margin-bottom: 3rem;
-  background-color: whitesmoke;
-  color: #333;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 10px;
-  padding: 10px;
-  border: none;
+.bannerAccount {
+  width: 70%;
+  margin-top: 4%;
+  margin-bottom: 1%;
   cursor: pointer;
-  width: 100px;
-}
-
-.cliente {
-  font-size: 28px;
-  font-weight: bold;
 }
 
 * {
@@ -401,7 +353,7 @@
 }
 
 .ofertasPago {
-  width: 100%;
+  width: 90%;
   cursor: pointer;
 }
 
@@ -417,6 +369,66 @@
 
 .col {
   margin-left: 5%;
+}
+
+.form a {
+  text-decoration: none;
+}
+
+.form a:hover {
+  font-size: 120%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: #22a884 solid 2px;
+  width: 50%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #35ca74, #22a884);
+}
+.form h4 {
+  font-size: 150%;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+}
+.form h3 {
+  font-size: 120%;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+}
+.form p {
+  font-size: 110%;
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form__input {
+  padding: 100%;
+  margin-bottom: 3rem;
+  background-color: whitesmoke;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+.cliente {
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .placeholder {
