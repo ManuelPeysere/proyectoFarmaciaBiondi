@@ -54,23 +54,52 @@
                 <h4>Dejanos tu consulta.</h4>
                 <h4>Te responderemos a la brevedad</h4>
             </div>
-                <input class="placeholder" type="text" id="name" name="name" placeholder="Ingrese su nombre y apellido">
-                <input class="placeholder" type="email" id="email" name="email" placeholder="example@gmail.com">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Correo Electrónico</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Contraseña</label>
+              </div> 
                 <h3>Quiero consultar sobre:</h3>
-             <div class="items">
-                <label for="obras_sociales">Obras sociales<input type="checkbox" name="consultatipo" id="obras_sociales"></label>
-                <label for="vacunacion_antigripal">Vacunas Antigripales<input  type="checkbox" name="consultatipo" id="vacunacion_antigripal"></label>
-                <label for="autorizaciones">Autorizaciones<input type="checkbox" name="consultatipo" id="autorizaciones"></label>
+            <div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                     Obras Sociales
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Vacunas Antigripales
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Autorizaciones
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Compras y envios
+                    </label>
+                  </div>
             </div>
 
-            
-                <textarea class="placeholder__text" name="comentario" id="comentario" cols="30" rows="10" placeholder="Detalle su consulta aquí"></textarea>
-            
+               
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Detalle su consulta aquí</label>
+                  </div>
             <div>
                 <input type="submit" value="ENVIAR" class="form__input">
             </div>
         </form> 
-    }</section>
+    </section>
     <div class="suscription">
         <img src="/images/background.png" alt="">
         <p>¡No te pierdas nuestras mejores ofertas solo para vos!</p>

@@ -55,11 +55,16 @@
         <section class="main"><form action="#" class="form">
 
             <h4 class="cliente">Cliente registrado</h4>
-            <input class="placeholder" type="email" id="email" name="email" placeholder="Usuario o correo electrónico">
-        
-            <input class="placeholder" type="password" id="password" name="password" placeholder="Contraseña">
-
-             <a href="./register.html"><p>¿Nuevo cliente? Crear cuenta</p></a>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Correo Electrónico</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Contraseña</label>
+              </div> 
+            
+            <a href="./register.html"><p>¿Nuevo cliente? Crear cuenta</p></a>
 
             <p>Ingresá con Google</p>
         
