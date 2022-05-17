@@ -15,23 +15,23 @@
     border: #22a884 solid 2px;
     width: 50%;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, $colorPrincipal, #22a884);
+    background-image: whitesmoke;
 
     & h4 {
-        font-size: 150%;
-        color: whitesmoke;
+        font-size: 180%;
+        color: #22a884;
         font-weight: bold;
         text-align: center;
     } 
     & h3 {
         font-size: 120%;
-        color: whitesmoke;
+        color: #35ca74;
         font-weight: bold;
         text-align: center;
     } 
     & p {
         font-size: 110%;
-        color: whitesmoke;
+        color: #35ca74;
         font-weight: bold;
         text-align: center;
         cursor: pointer;
@@ -43,9 +43,9 @@
 .form__input {
     padding: 100%;
     margin-bottom: 3rem;
-    background-color: whitesmoke;
-    color: #333;
-    font-size: 15px;
+    background-color: #35ca74;
+    color:white;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -65,15 +65,16 @@
     height: 30px;
     text-align: center;
     color: white;
-    border: none;
+    border: #35ca74 solid 3px;
 }
 .placeholder__text {
     border-radius: 15px;
     border: none;
     width: 80%;
     height: 15%;
+    color: black;
     text-align: center;
-    background-color: whitesmoke;
+    border: #35ca74 solid 3px;
 }
 .items input:hover {
     cursor: pointer;
@@ -83,7 +84,7 @@
     flex-direction: column;
 }
 .items label {
-    color: whitesmoke;
+    color: black;
     width: 100%;
 }
 .items label:hover {
