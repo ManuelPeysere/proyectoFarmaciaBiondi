@@ -5,10 +5,7 @@
     font-family: 'Roboto', sans-serif;
  }
 .main__index {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    @include flex (column, center, center);
     width: 90%;
     margin-left: 5%;
 }
@@ -16,9 +13,7 @@
     margin-bottom: 3rem;
 }
 .ofert {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex (row, center, center);
     flex-wrap: wrap;
     width: 85%;
     background-image: linear-gradient(to bottom, #35ca74, #22a884);
@@ -131,11 +126,11 @@
         }
         & button {
             width: 10%;
-            color: white;
-            font-weight: bold;
-            background-color: #35ca74;
-            border: none;
-            font-size: 110%;
+            color: map-get($estilosButton, color);
+            font-weight: map-get($estilosButton, font-weight);
+            background-color: map-get($estilosButton, background-color);
+            border: map-get($estilosButton, border);
+            font-size: map-get($estilosButton, font-size); 
             padding: 2px;
             position: absolute;
             top: 50%;

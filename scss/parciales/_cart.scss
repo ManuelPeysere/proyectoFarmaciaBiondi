@@ -40,30 +40,23 @@
     margin-left: 15%;
 }
 .button__confirm {
-    background-color: #22a884;
-    color: white;
-    font-size: 115%;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 4%;
-    border: none;
+    background-color: map-get($estilosButton, background-color);
+    color: map-get($estilosButton, color);
+    font-size: map-get($estilosButton, font-size);
+    font-weight: map-get($estilosButton, font-weight);
+    border-radius: map-get($estilosButton, border-radius);
+    padding: 4%; 
+    border: map-get($estilosButton, border);
     cursor: pointer;
     width: 65%;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 .button__continue {
+    @extend .button__confirm;
     background-color: white;
     color: black;
     font-size: 90%;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 4%;
-    width: 65%;
-    border: none;
-    cursor: pointer;
-    margin-top: 3%;
-    margin-bottom: 3%;
 }
 .finish {
     display: flex;

@@ -50,13 +50,13 @@
    box-shadow: 11px 15px 5px 0px rgba(0,0,0,0.16); 
 }
 .button {
-    background-color: #22a884;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px;
+    background-color:map-get($estilosButton, background-color);
+    color: map-get($estilosButton, color);
+    font-size: map-get($estilosButton, font-size); 
+    font-weight: map-get($estilosButton, font-weight);
+    border-radius: map-get($estilosButton, border-radius);
     padding: 10px;
-    border: none;
+    border: map-get($estilosButton, border);
     cursor: pointer;
     margin-left: 3rem;
 }
@@ -66,7 +66,6 @@
     flex-direction: column;
     width: 20rem;
     margin-top: 4rem;
-    /* border: red 5px solid; */
     flex-wrap: nowrap;
     order: -1;
     background-color:whitesmoke;
@@ -100,12 +99,12 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     cursor: pointer;
-    border-radius: 10px;
-    background-color: #22a884;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    border: none;
+    border-radius: map-get($estilosButton, border-radius);
+    background-color: map-get($estilosButton, background-color);
+    color: map-get($estilosButton, color);
+    font-size: map-get($estilosButton, font-size);
+    font-weight: map-get($estilosButton, font-weight);
+    border: map-get($estilosButton, border);
 }
 .range {
     display: flex;

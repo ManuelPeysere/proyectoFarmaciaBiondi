@@ -1,1 +1,16 @@
 $colorPrincipal: #35ca74;
+
+$estilosButton: (
+    color: white,
+    background-color: #35ca74,
+    border-radius: 10px,
+    border: none, 
+    font-size: 100%,
+    font-weight: bold
+);
+@mixin flex ($flex-direction, $align-items, $justify-content) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
