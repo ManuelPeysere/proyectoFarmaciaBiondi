@@ -4,15 +4,13 @@
 }
 
 .header__container {
-display: flex;
+@include flex (row, center, space-around);
 background-color: whitesmoke;
 position: fixed;
 z-index: 100;
 width: 100%;
-align-items:center;
-justify-content: space-around;
-
 }
+
 .header__containerb {
     background-color: whitesmoke;
     position: fixed;
@@ -30,11 +28,9 @@ justify-content: space-around;
     width: 3rem;
 }
 .navbar__list {
+    @include flex (row, center, center);
     list-style-type: none;
     font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
     gap: 5%;
     padding: 1rem;
     height: 70px;

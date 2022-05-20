@@ -112,7 +112,7 @@
             font-weight: bold;
             position: absolute;
             top: 25%;
-         left: 27%;
+            left: 27%;
         }
         & input {
             text-align: center;
@@ -146,10 +146,8 @@
     cursor: pointer;
 }
 .avisos {
-    display: flex;
-    flex-direction: row;
+    @include flex (row, center, space-between);
     flex-wrap: nowrap;
-    justify-content: space-between;
     cursor: pointer;
     background-color: whitesmoke;
     border-radius: 2%;
@@ -157,9 +155,7 @@
 }
 .group {
     width: 30%;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
+    @include flex (row, center, center);
 
     & img {
       width: 30%;  
@@ -173,9 +169,7 @@
     color: #35ca74;
 }
 .access {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include flex (row, center, space-between);
     width: 100%;
     margin-bottom: 2%;
     margin-top: 2%;

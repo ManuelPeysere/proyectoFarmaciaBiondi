@@ -14,12 +14,10 @@
     margin-bottom: 1rem;
 }
 .cupon {
-    display: flex;
-    flex-direction: row;
+    @include flex (row, center, center);
     flex-wrap: nowrap;
     width: 50%;
     background-image: linear-gradient(to bottom, $colorPrincipal, #22a884);
-    justify-content: center;
     color: white;
     margin-bottom: 2rem;
     font-size: 150%;

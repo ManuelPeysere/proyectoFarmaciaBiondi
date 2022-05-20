@@ -5,10 +5,7 @@
     font-size: 120%;
 }
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex (column, center, center);
     gap: 30px;
     margin-top: 3rem;
     margin-bottom: 3rem;
