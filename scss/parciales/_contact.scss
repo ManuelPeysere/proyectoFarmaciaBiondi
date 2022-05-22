@@ -22,7 +22,7 @@
     } 
     & h3 {
         font-size: 120%;
-        color: #35ca74;
+        color: #22a884;
         font-weight: bold;
         text-align: center;
     } 
@@ -34,9 +34,6 @@
         cursor: pointer;
     } 
 }
-
-    
-
 .form__input {
     padding: 100%;
     margin-bottom: 3rem;
@@ -53,23 +50,4 @@
 .cliente {
     font-size: 28px;
     font-weight: bold;
-}
-
-.placeholder {
-    border-radius: 15px;
-    width: 80%;
-    padding: 3%;
-    height: 30px;
-    text-align: center;
-    color: white;
-    border: #35ca74 solid 3px;
-}
-.placeholder__text {
-    border-radius: 15px;
-    border: none;
-    width: 80%;
-    height: 15%;
-    color: black;
-    text-align: center;
-    border: #35ca74 solid 3px;
 }
