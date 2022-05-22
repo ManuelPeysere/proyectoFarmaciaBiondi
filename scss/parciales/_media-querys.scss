@@ -154,4 +154,26 @@
     .navProducts {
         display: none;
     }
+    .avisos {
+        @include flex (row, center, space-between);
+        flex-wrap: wrap;
+        cursor: pointer;
+        background-color: whitesmoke;
+        border-radius: 2%;
+        padding: 1%;
+    }
+    .access {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .group {
+        width: 40%;
+        @include flex (column, center, center);
+        & p {
+            font-size: 110%; 
+        }
+    }
+    .avisos {
+        width: 100%;
+    }
 }

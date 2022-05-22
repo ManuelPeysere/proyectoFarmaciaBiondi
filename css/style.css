@@ -609,7 +609,7 @@
   margin-right: 10%;
 }
 .Order button {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .header {
@@ -956,6 +956,38 @@
 
   .navProducts {
     display: none;
+  }
+
+  .avisos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 2%;
+    padding: 1%;
+  }
+
+  .access {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .group {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .group p {
+    font-size: 110%;
+  }
+
+  .avisos {
+    width: 100%;
   }
 }
 
