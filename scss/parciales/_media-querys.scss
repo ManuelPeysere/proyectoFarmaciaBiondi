@@ -164,7 +164,7 @@
     }
     .access {
         flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: center;
     }
     .group {
         width: 40%;
@@ -175,5 +175,24 @@
     }
     .avisos {
         width: 100%;
+    }
+    .imgDirection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+
+        & img {
+            width: 80%;
+        }
+    }
+    .marcasDestacadas {
+        flex-wrap: wrap;
+        justify-content: center;
+        & img {
+            width: 100px;
+            height: 100px;
+        }
     }
 }

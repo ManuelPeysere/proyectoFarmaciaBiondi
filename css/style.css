@@ -45,7 +45,7 @@
 
 #title__offert {
   color: white;
-  font-size: 30px;
+  font-size: 200%;
   font-weight: bold;
   margin-left: 1rem;
   margin-right: 2rem;
@@ -53,7 +53,7 @@
 
 #description__offert {
   color: white;
-  font-size: 18px;
+  font-size: 120%;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -84,16 +84,16 @@
 
 .brand {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 160%;
 }
 
 .price {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 150%;
 }
 
 .brand, .price, .description {
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 
 .destacadas {
@@ -111,7 +111,7 @@
 .marcasDestacadas {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .marcasDestacadas img {
   width: 200px;
@@ -205,7 +205,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  flex-wrap: wrap;
   margin-bottom: 2%;
   margin-top: 2%;
 }
@@ -972,7 +972,7 @@
 
   .access {
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .group {
@@ -988,6 +988,26 @@
 
   .avisos {
     width: 100%;
+  }
+
+  .imgDirection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+  }
+  .imgDirection img {
+    width: 80%;
+  }
+
+  .marcasDestacadas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .marcasDestacadas img {
+    width: 100px;
+    height: 100px;
   }
 }
 
