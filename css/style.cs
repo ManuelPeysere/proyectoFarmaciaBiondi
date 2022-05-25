@@ -793,7 +793,7 @@
 
   .busqueda__input {
     height: 40px;
-    width: 40%;
+    width: 50%;
     font-size: 15px;
     font-weight: bold;
   }
@@ -812,17 +812,18 @@
 
   .access {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    width: 100%;
   }
 
   .access img {
-    width: 100%;
+    width: 180px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-right: 10px;
     margin-left: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .ofert {
@@ -969,6 +970,11 @@
     padding: 1%;
   }
 
+  .access {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .group {
     width: 40%;
     display: flex;
@@ -1004,4 +1010,4 @@
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */

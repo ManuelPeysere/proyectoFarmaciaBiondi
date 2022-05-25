@@ -169,7 +169,7 @@
 }
 .access {
     @include flex (row, center, space-between);
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 2%;
     margin-top: 2%;
 

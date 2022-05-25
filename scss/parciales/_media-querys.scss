@@ -4,7 +4,7 @@
     }
     .header__container {
         width: 100%;
-        height: 150px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
     }
@@ -17,7 +17,7 @@
     }
     .busqueda__input {
         height: 40px;
-        width: 50%;
+        width: 40%;
         font-size: 15px;
         font-weight: bold;
     }
@@ -33,18 +33,17 @@
     }
     .access {
     display: flex;
-    flex-direction:row;
-    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     }
 
     .access img {
-        width: 180px;
+        width: 100%;
         margin-bottom: 10px;
         margin-right: 10px;
         margin-right: 10px;
         margin-left: 0;
-        flex-direction:row;
-        flex-wrap: wrap;
     }
     .ofert {
         width: 80%;
@@ -162,10 +161,7 @@
         border-radius: 2%;
         padding: 1%;
     }
-    .access {
-        flex-direction: row;
-        justify-content: center;
-    }
+
     .group {
         width: 40%;
         @include flex (column, center, center);
@@ -188,7 +184,6 @@
         }
     }
     .marcasDestacadas {
-        flex-wrap: wrap;
         justify-content: center;
         & img {
             width: 100px;
