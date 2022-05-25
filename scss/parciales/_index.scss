@@ -139,6 +139,12 @@
 .menu__hamb {
     display: none;
 }
+.imgDirection {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+}
 .imgDirection img {
     border-radius: 5%;
     margin-bottom: 3%;
@@ -169,9 +175,10 @@
 }
 .access {
     @include flex (row, center, space-between);
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-bottom: 2%;
     margin-top: 2%;
+    width: 100%;
 
     & img {
         border-radius: 10%;
