@@ -27,20 +27,23 @@
     font-weight: bold;
     margin-left: 1rem;
     margin-right: 2rem;
+    text-align: center;
 }
 #description__offert {
     color: white;
     font-size: 120%;
-    margin-left: 2rem;
+    margin-left: 10%;
     margin-right: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 #link__offert {
     text-decoration: none;
     color: white;
-    margin-left: 4rem;
+    margin-left: 20%;
     font-weight: bold;
+    text-align: center;
 }
 
 #link__offert:hover {
@@ -142,6 +145,7 @@
 .imgDirection {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 90%;
     justify-content: space-around;
 }
@@ -178,7 +182,7 @@
     flex-wrap: wrap;
     margin-bottom: 2%;
     margin-top: 2%;
-    width: 100%;
+    width: 90%;
 
     & img {
         border-radius: 10%;
