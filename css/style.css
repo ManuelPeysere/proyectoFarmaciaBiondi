@@ -227,6 +227,8 @@
 
 .container {
   margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
 }
 
 .buy {
@@ -374,10 +376,6 @@
 .select__two {
   display: flex;
   width: 100%;
-}
-
-.col {
-  margin-left: 5%;
 }
 
 .form a {
