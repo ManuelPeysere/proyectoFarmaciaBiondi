@@ -27,7 +27,7 @@
         margin-bottom: 1rem;
     }
     .carrousel {
-        margin-top: 2rem;
+        margin-top: 1rem;
         width: 110%;
     }
     .access {
@@ -38,7 +38,6 @@
     }
 
     .access img {
-        width: 80%;
         margin-bottom: 10px;
     }
     .ofert {
@@ -126,13 +125,15 @@
     }
     .bannerProducts {
         width: 80%;
-        margin-left: 10%
+        margin-left: 12%
     }
     .encabezado {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin-bottom: none;
+        margin-left: 12%;
     }
     .navProducts {
         display: none;
