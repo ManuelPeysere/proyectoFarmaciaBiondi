@@ -26,9 +26,9 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .carrousel__img {
+    .carrousel {
         margin-top: 2rem;
-        width: 80%;
+        width: 110%;
     }
     .access {
     display: flex;
@@ -170,5 +170,13 @@
             width: 100px;
             height: 100px;
         }
+    }
+    .buy {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .ofertasPago {
+        width: 100%;
     }
 }

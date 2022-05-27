@@ -98,46 +98,46 @@
 
 .suscription {
     text-align: center;
-    padding: 3%;
     background-color: #EFEFEF;
     position: relative;
     width: 100%;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
         & img {
             width: 100%;
             height: 100%;
         }
-
         & p {
             font-size: 180%;
             font-weight: bold;
             position: absolute;
             top: 25%;
-            left: 27%;
         }
         & input {
             text-align: center;
-            width: 25%;
+            width: 35%;
             height: 15%;
             font-size: 110%;
             border: none;
             position: absolute;
             top: 50%;
-            left: 32%;  
         }
         & button {
-            width: 10%;
+            width: 20%;
             color: map-get($estilosButton, color);
             font-weight: map-get($estilosButton, font-weight);
             background-color: map-get($estilosButton, background-color);
             border: map-get($estilosButton, border);
-            font-size: map-get($estilosButton, font-size); 
+            font-size: map-get($estilosButton, font-size);
             padding: 2px;
             position: absolute;
-            top: 50%;
-            left: 57%; 
+            top: 70%;
         }
+
 }
 .menu__hamb {
     display: none;

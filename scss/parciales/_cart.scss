@@ -7,7 +7,7 @@
     background-color: whitesmoke;
     border-radius: 10px;
     height: 100%;
-    width: 70%;
+    width: 80%;
 }
 .buy h3 {
     font-size: 30px;
@@ -23,21 +23,22 @@
     color: white;
     margin-bottom: 2rem;
     font-size: 150%;
-    padding: 1%;
     border-radius: 10px;
     cursor: pointer;
     margin-left: 25%;
+
+    & span {
+        transform: rotate(180deg);
+    }
+
+    & h6 {
+        margin-top: 5%;
+        font-weight: bold;
+        text-align: center;
+    }
 }
-.cupon span {
-    transform: rotate(270deg);
-}
-.cupon h6 {
-    margin-top: 5%;
-    font-weight: bold;
-}
-.buy p {
-    margin-bottom: 1rem;
-    margin-left: 15%;
+.finish {
+    @include flex (column, center, center);
 }
 .button__confirm {
     background-color: map-get($estilosButton, background-color);
@@ -58,19 +59,13 @@
     color: black;
     font-size: 90%;
 }
-.finish {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .finish p {
     cursor: pointer;
-    width: 40%;
 }
 .finish p:hover {
     color: #22a884;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 120%;
 }
 .cash {
     display:grid;
@@ -101,6 +96,9 @@
     grid-area: ele6;
     font-weight: bold;
 }
+.cash p {
+    margin-left: 20%;
+}
 .inputNumber {
     background-color: whitesmoke;
     height: 20%;
@@ -117,7 +115,7 @@
     padding: 3%;
 }
 .ofertasPago {
-    width: 90%;
+    width: 70%;
     cursor: pointer;
 }
 .select__one {
@@ -127,4 +125,5 @@
 .select__two {
     display: flex;
     width: 100%;
+    border-top: whitesmoke 3px solid;
 }
