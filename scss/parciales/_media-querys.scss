@@ -139,23 +139,24 @@
         display: none;
     }
     .avisos {
-        @include flex (row, center, space-between);
-        flex-wrap: wrap;
+        @include flex (column, center, space-between);
         cursor: pointer;
         background-color: whitesmoke;
         border-radius: 2%;
         padding: 1%;
+        width: 100%;
     }
 
     .group {
-        width: 40%;
-        @include flex (column, center, center);
-        & p {
-            font-size: 110%; 
-        }
-    }
-    .avisos {
         width: 100%;
+        @include flex (row, center, center);
+        & p {
+            font-size: 70%; 
+        }
+        & img {
+            width: 20%;
+          }
+      
     }
     .imgDirection {
         justify-content: center;
