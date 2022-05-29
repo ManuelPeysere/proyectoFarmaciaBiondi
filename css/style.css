@@ -223,7 +223,7 @@
 }
 .access img {
   border-radius: 10%;
-  width: 80%;
+  width: 100%;
   margin-bottom: 3%;
 }
 
@@ -602,6 +602,8 @@
 .encabezado {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: whitesmoke;
   padding: 2%;
   justify-content: space-between;
@@ -621,6 +623,10 @@
 }
 .Order button {
   font-size: 100%;
+}
+
+.encabezadoFilter {
+  display: none;
 }
 
 .header {
@@ -894,25 +900,20 @@
 
   .section__products {
     gap: 10px;
-    width: 50%;
+    width: 90%;
+  }
+
+  .product {
+    width: 70%;
   }
 
   .section__filter {
-    flex-wrap: nowrap;
-    height: 100%;
-    margin-right: 1rem;
-    width: 50%;
+    display: none;
   }
 
-  .section__filter button {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: 12px;
-  }
-
-  .section__filter label {
-    font-size: 12px;
-    margin-right: 2rem;
+  .filter {
+    display: flex;
+    flex-direction: row;
   }
 
   .cash {
@@ -934,8 +935,7 @@
   }
 
   .bannerProducts {
-    width: 80%;
-    margin-left: 12%;
+    display: none;
   }
 
   .encabezado {
@@ -943,8 +943,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: none;
-    margin-left: 12%;
   }
 
   .navProducts {
@@ -1000,6 +998,23 @@
   }
 
   .ofertasPago {
+    width: 100%;
+  }
+
+  .encabezadoFilter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .encabezadoFilter p {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
