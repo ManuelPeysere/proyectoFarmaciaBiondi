@@ -178,7 +178,7 @@
     color: #35ca74;
 }
 .access {
-    @include flex (row, center, space-between);
+    @include flex (row, center, space-around);
     flex-wrap: wrap;
     margin-bottom: 2%;
     margin-top: 2%;
@@ -186,5 +186,7 @@
 
     & img {
         border-radius: 10%;
+        width: 80%;
+        margin-bottom: 3%;
     }
 }
