@@ -192,7 +192,22 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
         width: 100%;
+
+        & button {
+            font-size: 100%;
+            background-color: #22a884;
+            margin-bottom: 5px;
+        }
     }
-    
+    .select__one {
+        justify-content: center;
+    }
+    .select__two {
+        justify-content: center;
+    }
+    .ofertasPago {
+        display: none;
+    }
 }

@@ -602,8 +602,6 @@
 .encabezado {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   background-color: whitesmoke;
   padding: 2%;
   justify-content: space-between;
@@ -616,13 +614,11 @@
   font-size: 120%;
   color: #35ca74;
   font-weight: bold;
+  color: black;
 }
-
-.Order {
-  margin-right: 10%;
-}
-.Order button {
+.encabezado button {
   font-size: 100%;
+  background-color: #22a884;
 }
 
 .encabezadoFilter {
@@ -1015,7 +1011,25 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
+  }
+  .filter button {
+    font-size: 100%;
+    background-color: #22a884;
+    margin-bottom: 5px;
+  }
+
+  .select__one {
+    justify-content: center;
+  }
+
+  .select__two {
+    justify-content: center;
+  }
+
+  .ofertasPago {
+    display: none;
   }
 }
 
