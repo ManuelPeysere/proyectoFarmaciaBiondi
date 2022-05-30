@@ -1029,7 +1029,8 @@
   }
 
   .ofertasPago {
-    display: none;
+    height: 80%;
+    width: 80%;
   }
 }
 
