@@ -363,7 +363,7 @@
 }
 
 .ofertasPago {
-  width: 70%;
+  width: 80%;
   cursor: pointer;
 }
 
@@ -376,6 +376,10 @@
   display: flex;
   width: 100%;
   border-top: whitesmoke 3px solid;
+}
+
+.ofertasPagoMobile {
+  display: none;
 }
 
 .form a {
@@ -993,10 +997,6 @@
     margin-left: 10%;
   }
 
-  .ofertasPago {
-    width: 100%;
-  }
-
   .encabezadoFilter {
     display: flex;
     flex-direction: column;
@@ -1029,8 +1029,12 @@
   }
 
   .ofertasPago {
-    height: 80%;
+    display: none;
+  }
+
+  .ofertasPagoMobile {
     width: 80%;
+    display: inline;
   }
 }
 

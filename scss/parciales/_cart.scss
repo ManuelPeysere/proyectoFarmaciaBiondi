@@ -115,7 +115,7 @@
     padding: 3%;
 }
 .ofertasPago {
-    width: 70%;
+    width: 80%;
     cursor: pointer;
 }
 .select__one {
@@ -126,4 +126,7 @@
     display: flex;
     width: 100%;
     border-top: whitesmoke 3px solid;
+}
+.ofertasPagoMobile {
+    display: none;
 }

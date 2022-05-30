@@ -175,9 +175,6 @@
         flex-direction: column;
         margin-left: 10%;
     }
-    .ofertasPago {
-        width: 100%;
-    }
     .encabezadoFilter {
         display: flex;
         flex-direction: column;
@@ -208,7 +205,10 @@
         justify-content: center;
     }
     .ofertasPago {
-        height: 80%;
+        display: none;
+    }
+    .ofertasPagoMobile {
         width: 80%;
+        display: inline;
     }
 }
