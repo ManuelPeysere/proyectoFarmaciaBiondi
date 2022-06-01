@@ -3,8 +3,7 @@
   display: flex;
   justify-content: center;
 }
-
-.bannerAccount {
+.bannerOfertas img {
   width: 70%;
   margin-top: 4%;
   margin-bottom: 1%;
@@ -42,8 +41,7 @@
   margin-bottom: 5rem;
   border-radius: 30px;
 }
-
-#title__offert {
+.ofert h1 {
   color: white;
   font-size: 200%;
   font-weight: bold;
@@ -51,8 +49,7 @@
   margin-right: 2rem;
   text-align: center;
 }
-
-#description__offert {
+.ofert h4 {
   color: white;
   font-size: 120%;
   margin-left: 10%;
@@ -60,18 +57,16 @@
   margin-bottom: 2rem;
   text-align: center;
 }
-
-#link__offert {
+.ofert a {
   text-decoration: none;
   color: white;
   margin-left: 20%;
   font-weight: bold;
   text-align: center;
 }
-
-#link__offert:hover {
+.ofert a:hover {
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .div__price {
@@ -226,6 +221,37 @@
   border-radius: 10%;
   width: 100%;
   margin-bottom: 3%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border: whitesmoke 2px solid;
+  padding: 10px;
+  background-color: white;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product:hover {
+  box-shadow: 11px 15px 5px 0px rgba(0, 0, 0, 0.16);
+}
+
+.button {
+  background-color: #35ca74;
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 3rem;
 }
 
 .container {
@@ -425,7 +451,7 @@
   cursor: pointer;
 }
 
-.form__input {
+.formInput {
   padding: 100%;
   margin-bottom: 3rem;
   background-color: #35ca74;
@@ -476,19 +502,16 @@
   width: 80%;
   margin-left: 10%;
 }
-
 .navProducts a {
   color: #333;
   font-size: 120%;
 }
-
 .navProducts a:hover {
   color: white;
   font-weight: 1000;
   background-color: #35ca74;
   border-radius: 10%;
 }
-
 .navProducts ul {
   gap: 5%;
 }
@@ -498,7 +521,7 @@
   justify-content: center;
 }
 
-.section__products {
+.sectionProducts {
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -507,8 +530,7 @@
   margin-bottom: 3rem;
   flex-wrap: wrap;
 }
-
-.product {
+.sectionProducts article {
   display: flex;
   flex-direction: column;
   width: 250px;
@@ -522,12 +544,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
-
-.product:hover {
+.sectionProducts article:hover {
   box-shadow: 11px 15px 5px 0px rgba(0, 0, 0, 0.16);
 }
-
-.button {
+.sectionProducts button {
   background-color: #35ca74;
   color: white;
   font-size: 100%;
@@ -539,7 +559,7 @@
   margin-left: 3rem;
 }
 
-.section__filter {
+.sectionFilter {
   display: flex;
   flex-direction: column;
   width: 20rem;
@@ -552,8 +572,7 @@
   height: 100%;
   margin-left: 3rem;
 }
-
-.section__filter h5 {
+.sectionFilter h5 {
   font-size: 150%;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -561,19 +580,16 @@
   color: #22a884;
   font-weight: bold;
 }
-
-.section__filter label {
+.sectionFilter label {
   margin-left: 1rem;
   font-size: 100%;
 }
-
-.section__filter label:hover {
+.sectionFilter label:hover {
   cursor: pointer;
   color: #22a884;
   font-weight: bold;
 }
-
-.section__filter button {
+.sectionFilter button {
   padding: 10px;
   align-self: center;
   margin-top: 1rem;
@@ -585,19 +601,6 @@
   font-size: 100%;
   font-weight: bold;
   border: none;
-}
-
-.range {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-self: center;
-  text-align: center;
-}
-
-.range input {
-  width: 30%;
-  height: 100px;
 }
 
 .bannerProducts {

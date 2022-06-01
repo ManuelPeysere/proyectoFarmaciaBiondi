@@ -3,26 +3,30 @@
     border-top: whitesmoke solid 5px;
     width: 80%;
     margin-left: 10%;
+
+    & a {
+        color: #333;
+        font-size: 120%;
+    }
+
+    & a:hover {
+        color: white;
+        font-weight: 1000;
+        background-color: $colorPrincipal;
+        border-radius: 10%;
+    }
+
+    & ul {
+        gap: 5%;
+    }
 }
-.navProducts a {
-    color: #333;
-    font-size: 120%;
-}
-.navProducts a:hover {
-    color: white;
-    font-weight: 1000;
-    background-color: $colorPrincipal;
-    border-radius: 10%;
-}
-.navProducts ul {
-    gap: 5%;
-}
+
 .main {
     display: flex;
     justify-content: center;
 }
 
-.section__products {
+.sectionProducts {
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -30,38 +34,40 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
-}
-.product {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    border: whitesmoke 2px solid;
-    padding: 10px;
-    background-color: white;  
-    align-items: center;
-    border-radius: 10px;
-    cursor: pointer;
+
+    & article {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        border: whitesmoke 2px solid;
+        padding: 10px;
+        background-color: white;  
+        align-items: center;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    & article:hover {
+        box-shadow: 11px 15px 5px 0px rgba(0,0,0,0.16);
+    }
+
+    & button {
+        background-color:map-get($estilosButton, background-color);
+        color: map-get($estilosButton, color);
+        font-size: map-get($estilosButton, font-size); 
+        font-weight: map-get($estilosButton, font-weight);
+        border-radius: map-get($estilosButton, border-radius);
+        padding: 10px;
+        border: map-get($estilosButton, border);
+        cursor: pointer;
+        margin-left: 3rem;
+    }
 }
 
-.product:hover {
-   box-shadow: 11px 15px 5px 0px rgba(0,0,0,0.16); 
-}
-.button {
-    background-color:map-get($estilosButton, background-color);
-    color: map-get($estilosButton, color);
-    font-size: map-get($estilosButton, font-size); 
-    font-weight: map-get($estilosButton, font-weight);
-    border-radius: map-get($estilosButton, border-radius);
-    padding: 10px;
-    border: map-get($estilosButton, border);
-    cursor: pointer;
-    margin-left: 3rem;
-}
-
-.section__filter {
+.sectionFilter {
     display: flex;
     flex-direction: column;
     width: 20rem;
@@ -73,51 +79,42 @@
     gap: 10px;
     height: 100%;
     margin-left: 3rem;
-}
-.section__filter h5 {
-    font-size: 150%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    color: #22a884;
-    font-weight: bold;
+
+    & h5 {
+       font-size: 150%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        color: #22a884;
+        font-weight: bold; 
+    }
+
+    & label {
+        margin-left: 1rem;
+        font-size: 100%;
+    }
+
+    & label:hover {
+        cursor: pointer;
+        color: #22a884;
+        font-weight: bold;
+    }
+
+    & button {
+        padding: 10px;
+        align-self: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+        border-radius: map-get($estilosButton, border-radius);
+        background-color: map-get($estilosButton, background-color);
+        color: map-get($estilosButton, color);
+        font-size: map-get($estilosButton, font-size);
+        font-weight: map-get($estilosButton, font-weight);
+        border: map-get($estilosButton, border);
+    }
 }
 
-.section__filter label {
-    margin-left: 1rem;
-    font-size: 100%;
-}
-
-.section__filter label:hover{
-    cursor: pointer;
-    color: #22a884;
-    font-weight: bold;
-}
-
-.section__filter button {
-    padding: 10px;
-    align-self: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    cursor: pointer;
-    border-radius: map-get($estilosButton, border-radius);
-    background-color: map-get($estilosButton, background-color);
-    color: map-get($estilosButton, color);
-    font-size: map-get($estilosButton, font-size);
-    font-weight: map-get($estilosButton, font-weight);
-    border: map-get($estilosButton, border);
-}
-.range {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-self: center;
-    text-align: center;
-}
-.range input {
-    width: 30%;
-    height: 100px;
-}
 .bannerProducts {
     width: 100%;
     margin-top: 1%;

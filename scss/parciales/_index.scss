@@ -19,37 +19,40 @@
     background-image: linear-gradient(to bottom, #35ca74, #22a884);
     margin-bottom: 5rem;
     border-radius: 30px;
-    
-}
-#title__offert {
-    color: white;
+
+    & h1 {
+        color: white;
     font-size: 200%;
     font-weight: bold;
     margin-left: 1rem;
     margin-right: 2rem;
     text-align: center;
-}
-#description__offert {
-    color: white;
-    font-size: 120%;
-    margin-left: 10%;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    }
+    
+    & h4 {
+        color: white;
+        font-size: 120%;
+        margin-left: 10%;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    & a {
+        text-decoration: none;
+        color: white;
+        margin-left: 20%;
+        font-weight: bold;
+        text-align: center; 
+    }
+
+    & a:hover {
+        font-weight: bold;
+        color: black;
+    }
 }
 
-#link__offert {
-    text-decoration: none;
-    color: white;
-    margin-left: 20%;
-    font-weight: bold;
-    text-align: center;
-}
 
-#link__offert:hover {
-    font-weight: bold;
-    color: white;
-}
 
 .div__price {
     display: flex;
@@ -190,4 +193,34 @@
         width: 100%;
         margin-bottom: 3%;
     }
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: whitesmoke 2px solid;
+    padding: 10px;
+    background-color: white;  
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product:hover {
+   box-shadow: 11px 15px 5px 0px rgba(0,0,0,0.16); 
+}
+
+.button {
+    background-color:map-get($estilosButton, background-color);
+    color: map-get($estilosButton, color);
+    font-size: map-get($estilosButton, font-size); 
+    font-weight: map-get($estilosButton, font-weight);
+    border-radius: map-get($estilosButton, border-radius);
+    padding: 10px;
+    border: map-get($estilosButton, border);
+    cursor: pointer;
+    margin-left: 3rem;
 }
