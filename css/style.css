@@ -895,30 +895,20 @@
     margin-left: 15%;
   }
 
-  .product button {
-    margin-left: 25%;
-  }
-
   .footer__style {
     gap: 20px;
   }
 
-  .section__products {
+  .sectionProducts {
     gap: 10px;
     width: 90%;
   }
-
-  .product {
+  .sectionProducts article {
     width: 70%;
   }
 
-  .section__filter {
+  .sectionFilter {
     display: none;
-  }
-
-  .filter {
-    display: flex;
-    flex-direction: row;
   }
 
   .cash {

@@ -89,25 +89,20 @@
         cursor: pointer;
         margin-left: 15%;  
     }
-    .product button {
-        margin-left: 25%;
-    }
     .footer__style {
         gap: 20px;
     }
-    .section__products {
+    .sectionProducts {
         gap: 10px;
         width: 90%;
+
+        & article {
+            width: 70%;
+        }
     }
-    .product {
-        width: 70%;
-    }
-    .section__filter {
+    
+    .sectionFilter {
         display: none;
-    }
-    .filter {
-        display: flex;
-        flex-direction: row;
     }
     .cash {
         margin-right: 8%;
@@ -184,6 +179,7 @@
             font-weight: bold;
             text-align: center;
         }
+
     }
     .filter {
         display: flex;
@@ -191,6 +187,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         width: 100%;
+
 
         & button {
             font-size: 100%;
