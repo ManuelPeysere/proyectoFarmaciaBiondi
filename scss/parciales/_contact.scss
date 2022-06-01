@@ -28,7 +28,7 @@
     } 
     & p {
         font-size: 110%;
-        color: #35ca74;
+        color: #22a884;
         font-weight: bold;
         text-align: center;
         cursor: pointer;
@@ -36,17 +36,16 @@
     
 }
 .formInput {
-    padding: 100%;
     margin-bottom: 3rem;
-    background-color: #35ca74;
+    background-color: #22a884;
     color:white;
-    font-size: 18px;
+    font-size: 100%;
     font-weight: bold;
     border-radius: 10px;
-    padding: 10px;
     border: none;
     cursor: pointer;
     width: 100px;
+    padding: 1rem;
 }
 .cliente {
     font-size: 28px;

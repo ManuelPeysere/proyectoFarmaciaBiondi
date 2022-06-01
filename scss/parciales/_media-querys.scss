@@ -10,9 +10,12 @@
     .icons {
         display: none;
     }
-    .menu__hamb{
+    .menuHamb{
         display: flex;
         transform: scale(3);
+    }
+    .prueba {
+        background-color: #22a884;
     }
     .busqueda__input {
         height: 40px;
@@ -141,12 +144,13 @@
 
     .group {
         width: 100%;
-        @include flex (row, center, center);
+        @include flex (row, center, space-around);
         & p {
-            font-size: 70%; 
+            font-size: 90%; 
+            text-align: center;
         }
         & img {
-            width: 20%;
+            width: 30%;
           }
       
     }

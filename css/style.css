@@ -159,7 +159,7 @@
   top: 70%;
 }
 
-.menu__hamb {
+.menuHamb {
   display: none;
 }
 
@@ -445,24 +445,23 @@
 }
 .form p {
   font-size: 110%;
-  color: #35ca74;
+  color: #22a884;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
 }
 
 .formInput {
-  padding: 100%;
   margin-bottom: 3rem;
-  background-color: #35ca74;
+  background-color: #22a884;
   color: white;
-  font-size: 18px;
+  font-size: 100%;
   font-weight: bold;
   border-radius: 10px;
-  padding: 10px;
   border: none;
   cursor: pointer;
   width: 100px;
+  padding: 1rem;
 }
 
 .cliente {
@@ -803,9 +802,13 @@
     display: none;
   }
 
-  .menu__hamb {
+  .menuHamb {
     display: flex;
     transform: scale(3);
+  }
+
+  .prueba {
+    background-color: #22a884;
   }
 
   .busqueda__input {
@@ -960,14 +963,15 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   .group p {
-    font-size: 70%;
+    font-size: 90%;
+    text-align: center;
   }
   .group img {
-    width: 20%;
+    width: 30%;
   }
 
   .imgDirection {
