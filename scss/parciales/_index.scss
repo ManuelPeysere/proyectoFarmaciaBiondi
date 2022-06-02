@@ -15,7 +15,7 @@
 .ofert {
     @include flex (row, center, center);
     flex-wrap: wrap;
-    width: 85%;
+    width: 90%;
     background-image: linear-gradient(to bottom, #35ca74, #22a884);
     margin-bottom: 5rem;
     border-radius: 30px;
@@ -197,7 +197,7 @@
     width: 250px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-right: 1rem;
+    margin-right: 3%;
     border: whitesmoke 2px solid;
     padding: 10px;
     background-color: white;  
