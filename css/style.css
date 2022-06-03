@@ -477,7 +477,7 @@
 }
 
 .form-floating {
-  width: 50%;
+  width: 80%;
 }
 
 .formInput {
@@ -1083,6 +1083,11 @@
 
   .header {
     margin-bottom: 1rem;
+  }
+
+  .faq__style iframe {
+    width: 100%;
+    height: 300px;
   }
 }
 
