@@ -22,11 +22,11 @@
 
     & h1 {
         color: white;
-    font-size: 200%;
-    font-weight: bold;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-right: 2rem;
+        text-align: center;
     }
     
     & h4 {
@@ -114,7 +114,7 @@
             height: 100%;
         }
         & p {
-            font-size: 180%;
+            font-size: 150%;
             font-weight: bold;
             position: absolute;
             top: 25%;
@@ -128,17 +128,18 @@
             position: absolute;
             top: 50%;
         }
-        & button {
-            width: 20%;
-            color: map-get($estilosButton, color);
-            font-weight: map-get($estilosButton, font-weight);
-            background-color: map-get($estilosButton, background-color);
-            border: map-get($estilosButton, border);
-            font-size: map-get($estilosButton, font-size);
-            padding: 2px;
-            position: absolute;
-            top: 70%;
-        }
+}
+
+.btn-primary {
+    width: 20%;
+    color: map-get($estilosButton, color);
+    font-weight: map-get($estilosButton, font-weight);
+    background-color: map-get($estilosButton, background-color);
+    border: map-get($estilosButton, border);
+    font-size: map-get($estilosButton, font-size);
+    padding: 2px;
+    position: absolute;
+    top: 70%;
 }
 .menuHamb {
     display: none;
@@ -220,4 +221,29 @@
     border: map-get($estilosButton, border);
     cursor: pointer;
     margin-left: 3rem;
+}
+.btnWSP {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    color: #35ca74;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+
+    &:hover {
+        background-color: #35ca74;
+        color: white;
+    }
 }

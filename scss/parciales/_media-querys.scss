@@ -83,15 +83,14 @@
         margin-bottom: 5px;
     }
     .button {
-        background-color: #22a884;
-        color: white;
-        font-size: 12px;
-        font-weight: bold;
-        border-radius: 10px;
+        background-color:map-get($estilosButton, background-color);
+        color: map-get($estilosButton, color);
+        font-size: 90%; 
+        font-weight: map-get($estilosButton, font-weight);
+        border-radius: map-get($estilosButton, border-radius);
         padding: 8px;
-        border: none;
+        border: map-get($estilosButton, border);
         cursor: pointer;
-        margin-left: 15%;  
     }
     .footer__style {
         gap: 20px;
@@ -217,6 +216,9 @@
         cursor: pointer;
     }
     .bannerAccount {
+        display: none;
+    }
+    .bannerOfertas {
         display: none;
     }
     .header {

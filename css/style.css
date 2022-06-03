@@ -133,7 +133,7 @@
   height: 100%;
 }
 .suscription p {
-  font-size: 180%;
+  font-size: 150%;
   font-weight: bold;
   position: absolute;
   top: 25%;
@@ -147,7 +147,8 @@
   position: absolute;
   top: 50%;
 }
-.suscription button {
+
+.btn-primary {
   width: 20%;
   color: white;
   font-weight: bold;
@@ -252,6 +253,31 @@
   border: none;
   cursor: pointer;
   margin-left: 3rem;
+}
+
+.btnWSP {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: white;
+  color: #35ca74;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 35px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+.btnWSP:hover {
+  background-color: #35ca74;
+  color: white;
 }
 
 .container {
@@ -892,15 +918,14 @@
   }
 
   .button {
-    background-color: #22a884;
+    background-color: #35ca74;
     color: white;
-    font-size: 12px;
+    font-size: 90%;
     font-weight: bold;
     border-radius: 10px;
     padding: 8px;
     border: none;
     cursor: pointer;
-    margin-left: 15%;
   }
 
   .footer__style {
@@ -1044,6 +1069,10 @@
   }
 
   .bannerAccount {
+    display: none;
+  }
+
+  .bannerOfertas {
     display: none;
   }
 
