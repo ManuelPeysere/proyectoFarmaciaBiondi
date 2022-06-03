@@ -174,7 +174,6 @@
 .imgDirection img {
   border-radius: 5%;
   margin-bottom: 3%;
-  cursor: pointer;
 }
 
 .avisos {
@@ -475,6 +474,10 @@
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+}
+
+.form-floating {
+  width: 50%;
 }
 
 .formInput {

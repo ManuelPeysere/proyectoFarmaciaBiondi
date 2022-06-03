@@ -105,11 +105,29 @@
     <div class="mediosPago">
         <img class="ofertasPagoMobile" src="../images/bannerCarritoMobile.png" alt="Ofertas con diferentes medios de pago">
     </div>
-      <div class="suscription">
-        <img src="/images/background.png" alt="Imagen de fondo, sección para suscribirse a mail de novedades">
+    <div class="suscription">
+        <img src="../images/background.png" alt="Imagen de fondo, sección para suscribirse a mail de novedades">
         <p>¡No te pierdas nuestras mejores ofertas solo para vos!</p>
         <input type="email" placeholder="Ingresá tu email">
-        <button> ¡Suscribirme!</button>
+
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Suscripción exitosa</h5>
+                    </div>
+                    <div class="modal-body">
+                        Gracias por suscribirte a nuestro Newsletter. Esperamos puedas aprovechar nuestras ofertas
+                        semanales.
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">¡Suscribirme!</a>
+
     </div>
     </main>
 
