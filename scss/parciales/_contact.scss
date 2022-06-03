@@ -19,6 +19,7 @@
         color: #22a884;
         font-weight: bold;
         text-align: center;
+        margin-top:5%;
     } 
     & h3 {
         font-size: 120%;
@@ -37,15 +38,17 @@
 }
 .formInput {
     margin-bottom: 3rem;
-    background-color: #22a884;
-    color:white;
-    font-size: 100%;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
     cursor: pointer;
     width: 100px;
     padding: 1rem;
+    background-color:map-get($estilosButton, background-color);
+    color: map-get($estilosButton, color);
+    font-size: map-get($estilosButton, font-size); 
+    font-weight: map-get($estilosButton, font-weight);
+    border-radius: map-get($estilosButton, border-radius);
+    padding: 10px;
+    border: map-get($estilosButton, border);
+    cursor: pointer;
 }
 .cliente {
     font-size: 28px;

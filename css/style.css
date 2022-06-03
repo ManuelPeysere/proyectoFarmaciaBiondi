@@ -147,12 +147,11 @@
   position: absolute;
   top: 50%;
 }
-
-.btn-primary {
+.suscription a {
+  background: #35ca74;
   width: 20%;
   color: white;
   font-weight: bold;
-  background-color: #35ca74;
   border: none;
   font-size: 100%;
   padding: 2px;
@@ -462,6 +461,7 @@
   color: #22a884;
   font-weight: bold;
   text-align: center;
+  margin-top: 5%;
 }
 .form h3 {
   font-size: 120%;
@@ -479,15 +479,17 @@
 
 .formInput {
   margin-bottom: 3rem;
-  background-color: #22a884;
+  cursor: pointer;
+  width: 100px;
+  padding: 1rem;
+  background-color: #35ca74;
   color: white;
   font-size: 100%;
   font-weight: bold;
   border-radius: 10px;
+  padding: 10px;
   border: none;
   cursor: pointer;
-  width: 100px;
-  padding: 1rem;
 }
 
 .cliente {

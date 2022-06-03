@@ -128,18 +128,17 @@
             position: absolute;
             top: 50%;
         }
-}
-
-.btn-primary {
-    width: 20%;
-    color: map-get($estilosButton, color);
-    font-weight: map-get($estilosButton, font-weight);
-    background-color: map-get($estilosButton, background-color);
-    border: map-get($estilosButton, border);
-    font-size: map-get($estilosButton, font-size);
-    padding: 2px;
-    position: absolute;
-    top: 70%;
+        & a {
+            background: #35ca74;
+            width: 20%;
+            color: map-get($estilosButton, color);
+            font-weight: map-get($estilosButton, font-weight);
+            border: map-get($estilosButton, border);
+            font-size: map-get($estilosButton, font-size);
+            padding: 2px;
+            position: absolute;
+            top: 70%;
+        }
 }
 .menuHamb {
     display: none;
